@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    line-height:2;
+}
+section{
+    padding:5% 0;
+}
+h3{
+    text-align:center;
+}
+.container{
+    border:2px solid grey;
+}
+h1{
+    margin-bottom:2%;
+    margin-left:2%;
+    font-size:3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size:2rem;
+}
+i{
+    font-size:50px;
+    color:#BB1433;
+}
+h4{
+    font-size:1.5rem;
+}
+p{
+    font-size:1.6rem;
+}
+/*Top Section Styles*/
+.nav{
+    margin-left:2%;
+}
+/*Middle Section Styles*/
+.attendence, .behaviour, .academic, .wrapper, .wrapper div{
+    border: 2px solid grey;
+}
+.bottom h2{
+    text-align:center;
+}
+.wrapper div{
+    margin:2% 0;
+}
+.escalation{
+    width:100%;
+    border:2px solid #BB1433;
+    margin:0 auto;
+}
