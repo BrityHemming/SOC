@@ -41,6 +41,7 @@ h4{
 }
 p{
     font-size:1.6rem;
+    padding:10px;
 }
 /*Top Section Styles*/
 .nav{
@@ -62,6 +63,7 @@ p{
 /*Middle Section Styles*/
 .attendence, .behaviour, .academic, .wrapper, .wrapper div{
     border: 2px solid grey;
+    border-radius: 3px;
 }
 .bottom h2{
     text-align:center;
@@ -73,4 +75,13 @@ p{
     width:100%;
     border:2px solid #BB1433;
     margin:0 auto;
+}
+.escalation.first-child{
+    border-bottom:none;
+}
+.escalation.last-child{
+    border-top:none;
+}
+.border-grey{
+    border-color: grey;
 }
